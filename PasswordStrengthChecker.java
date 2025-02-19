@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Checks the strength of a password. The password strength is calculated based on
  * character types, character position, and password length. Upon password evaluation,
- * a rating is given (Weak, Medium, Slightly Good, Strong) based on the password strength.
+ * a rating is given (Weak, Medium, Decent, Strong) based on the password strength.
  * <p>
  * <author> Jeniene Saoit </author>
  * <version> 02/20/ 25 </version>
@@ -64,7 +64,7 @@ public class PasswordStrengthChecker {
         } else if (strength <= 6) {
             passwordStrength = "Medium";
         } else if (strength <= 9) {
-            passwordStrength =  "Slightly Good";
+            passwordStrength =  "Decent";
         } else {
             passwordStrength = "Strong";
         }
