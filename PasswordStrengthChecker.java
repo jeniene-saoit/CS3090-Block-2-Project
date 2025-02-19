@@ -58,7 +58,7 @@ public class PasswordStrengthChecker {
         if (password.matches("$[^a-zA-Z]")) strength += 2; // ends with non-letter
 
         // determines strength of the password
-        String passwordStrength = "";
+        String passwordStrength;
         if (strength <= 3) {
             passwordStrength = "Weak";
         } else if (strength <= 6) {
