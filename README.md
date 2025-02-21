@@ -8,12 +8,12 @@ Upon execution, the program provides two outputs: a rating of the user's passwor
 **_Before running the program:_** ensure you hava Java Development Kit (JDK) installed.
 
 **_The program can be ran in two way:_**
-  * **IDE** 
+ **IDE** 
     1. Open an IDE that you can use to run a Java Program.
     2. Download the PasswordStrengthChecker.java file from the repository.
     3. Open the PasswordStrengthChecker.java file in your IDE.
     4. Press the run button.
-  * **Terminal**
+ **Terminal**
     1. Open a terminal or command prompt.
     2. Download the PasswordStrengthChecker.java file from the repository.
     3. Navigate to the directory where the PasswordStrengthChecker.java file is saved.
